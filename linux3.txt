@@ -1,0 +1,410 @@
+ip a s
+    2  shutdown now
+    3  ip a s
+    4  shutdown now
+    5  ip a s
+    6  mount /dev/sr0 /mnt/
+    7  ip a s
+    8  mount /dev/sr0 /mnt
+    9  ll /mnt/media.repo
+   10  cp /mnt/media.repo /etc/yum.ewpos.d/rehel7.repo
+   11  cp /mnt/media.repo /etc/yum.repos.d/rehel7.repo
+   12  chmod 644 /etc/yum.repos.d/rehel7.repo
+   13  vi /etc/yum.repos.d/
+   14  df -m
+   15  iosta
+   16  iostat
+   17  netstat
+   18  yum -version
+   19  q
+   20  yum version
+   21  ll /etc/yum.repos.d/
+   22  vi /etc/yum.repos.d/rehel7.repo
+   23  yum clean all
+   24  subscription-manager clean
+   25  yum list "sysstat*"
+   26  yum install sysstat
+   27  yum install iostat
+   28  yum install netstat
+   29  yum list "*"
+   30  yum install iostat
+   31  yum install httpd
+   32  yum install iostat
+   33  iostat
+   34  netstat
+   35  vmstat
+   36  sysstat
+   37  netstat
+   38  shutdown now
+   39  mount /dev/sr0  /mnt
+   40  systemctl
+   41  vmstat
+   42  iostat
+   43  netstat
+   44  shutdown now
+   45  ip a s
+   46  basename /tmp/a.txt
+   47  pwd
+   48  pwd /tmp/a.txt
+   49  basename /tmp/a.txt
+   50  pwd /tmp/a.txt
+   51  touch /home/a.txt
+   52  cat /home
+   53  cat /home/
+   54  cat /home/a.txt
+   55  vi /home/a.txt
+   56  cat /home/a.txt
+   57  cat /home/newfile.txt
+   58  touch /home/newfile.txt
+   59  vi /home/newfile.txt
+   60  cat /home/newfile.txt
+   61  ls
+   62  ls /home/newfile.txt
+   63  chown
+   64  chown --help
+   65  sysemcktctl status httpd
+   66  systemctl status httpd
+   67  basename /tmp/a.txt
+   68  dirname /tmp/a.txt
+   69  touch /home/newfile.txt
+   70  vi /home/newfile.txt
+   71  cat /home/newfile.txt
+   72  ls /home/newfile.txt
+   73  ls /home/
+   74  groupadd ayeaye
+   75  chgrp ayeaye /tmp/a.txt
+   76  touch /tmp/a.txt
+   77  chgrp ayeaye /tmp/a.txt
+   78  ll /tmp/
+   79  chmod 644 /home/newfile.txt
+   80  cp /tmp/a.txt /home/b.txt
+   81  cat /home/b.txt
+   82  cat /tmp/a.txt
+   83  vi /tmp/a.txt
+   84  cp /tmp/a.txt /home/b.txt
+   85  cat /home/b.txt
+   86  cp /tmp/a.txt /home/b.txt
+   87  cat /home/b.txt
+   88  mv /home/b.txt /home/c.txt
+   89  cat /home/c.txt
+   90  find / -name c.txt
+   91  rm /home/c.txt
+   92  cat /home/c.txt
+   93  touch /home/hostname.txt
+   94  cat /home/a.txt | hostname
+   95  cat /home/b.txt | hostname
+   96  cat /home/newfile.txt | hostname
+   97  cat /home/newfile.txt | grep  hostname
+   98  cat /home/newfile.txt | grep  hello
+   99  more /home/newfile.txt | grep  hostname
+  100  more /home/newfile.txt | grep  hello
+  101  echo hello
+  102  diff /temp/a.txt /home/newfile.txt
+  103  diff /tmp/a.txt /home/newfile.txt
+  104  vi /tmp/a.txt
+  105  cat /tmp/a.txt
+  106  vi /tmp/a.txt
+  107  cat /tmp/a.txt
+  108  chkconfig network on
+  109  systemctl start httpd
+  110  systemctl enable httpd
+  111  systemctl status httpd
+  112  ppid
+  113  pwd
+  114  oldpwd
+  115  ps -A | grep httpd
+  116  cat /ec/hostname
+  117  cat /etc/hostname
+  118  x=2; echo $x
+  119  x=2
+  120  echo $x
+  121  x=10
+  122  y=10
+  123  echo $x*$y
+  124  z=x*y
+  125  mount /dev/sr0 /mnt/
+  126  yum install vin
+  127  yum install vim
+  128  vim /data/test.sh
+  129  ll /data/test.sh
+  130  chmod +x /data/test.sh
+  131  ll /data/test.sh
+  132   /data/test.sh
+  133  cd data
+  134  cd /data/
+  135  ./test.sh
+  136  echo $?
+  137  ps -a grep httpd
+  138  ps -a | grep httpd
+  139  echo ${PIPESTATUS[0]}
+  140  ps -a | grep httpd
+  141  echo ${PIPESTATUS[1]}
+  142  ps -a | grep httpd
+  143  echo $?
+  144  ps -a | grep httpd
+  145  echo ${PIPESTATUS[2]}
+  146  echo ${PIPESTATUS[1]}
+  147  echo ${PIPESTATUS[0]}
+  148  echo ${PIPESTATUS[1]}
+  149  ps -a | grep httpd
+  150  echo ${PIPESTATUS[1]}
+  151  ps -a | grep httpd
+  152  echo ${PIPESTATUS[2]}
+  153  echo $?
+  154  vim /data/hostname.sh
+  155  cd
+  156  vim /data/hostname.sh
+  157  chmod +x /data/hostname.sh
+  158  ll  /data/hostname.sh
+  159  /data/hostname.sh
+  160  vim /data/hostname.sh
+  161  /data/hostname.sh
+  162  vim /data/hostname.sh
+  163  cd
+  164  vim /data/hostname.sh
+  165  ll  /data/hostname.sh
+  166  /data/hostname.sh
+  167  shutdown now
+  168  ip a s
+  169  ll /data/
+  170  vim /data/if1.sh
+  171  chmod +x /data/if1.sh
+  172  /data/if1.sh
+  173  vim /data/if1.sh
+  174  ll /data/test.sh
+  175  ll /data/test1.sh
+  176  ll /data/
+  177  vim /data/iftest.sh
+  178  chmod +x /data/iftest.sh
+  179  ll /data/iftest.sh
+  180   /data/iftest.sh
+  181  chmod +x /data/iftest.sh
+  182  vim /data/iftest.sh
+  183  chmod +x /data/iftest.sh
+  184  ll /data/iftest.sh
+  185   /data/iftest.sh
+  186  vim /data/iftesttwo.sh
+  187  chmod +x /data/iftesttwo.sh
+  188  ll /data/iftesttwo.sh
+  189  /data/iftesttwo.sh
+  190  date "%U"
+  191  date "%u"
+  192  date "+%u"
+  193  date "+%U"
+  194  vim /data/datetest.sh
+  195  chmod +x /data/datetest.sh
+  196  ll /data/datetest.sh
+  197  /data/datetest.sh
+  198  vim /data/datetest.sh
+  199  chmod +x /data/datetest.sh
+  200  ll /data/datetest.sh
+  201  /data/datetest.sh
+  202  vim /data/datetest.sh
+  203  chmod +x /data/datetest.sh
+  204  ll /data/datetest.sh
+  205  /data/datetest.sh
+  206  vim /data/casetest.sh
+  207  chmod +x /data/casetest.sh
+  208  ll /data/casetest.sh
+  209  /data/casetest.sh
+  210  vim /data/casetest.sh
+  211  chmod +x /data/casetest.sh
+  212  ll /data/casetest.sh
+  213  /data/casetest.sh
+  214  vim /data/casetest.sh
+  215  ll /data/casetest.sh
+  216  /data/casetest.sh
+  217  vim /data/casetest.sh
+  218  chmod +x /data/casetest.sh
+  219  ll /data/casetest.sh
+  220  /data/casetest.sh
+  221  vim /data/casetest.sh
+  222  chmod +x /data/casetest.sh
+  223  /data/casetest.sh
+  224  shutdown now
+  225  vim /data/whiletest.sh
+  226  chmod +x /data/whiletest.sh
+  227  ll  /data/whiletest.sh
+  228  /data/whiletest.sh
+  229  vim /data/whiletest.sh
+  230  chmod +x /data/whiletest.sh
+  231  /data/whiletest.sh
+  232  vim /data/whiletest2.sh
+  233  chmod +x /data/whiletest2.sh
+  234  /data/whiletest2.sh
+  235  vim /data/whiletest2.sh
+  236  /data/whiletest2.sh
+  237  /data/whiletest3.sh
+  238  vim /data/whiletest3.sh
+  239  chmod +x whiletest3.sh
+  240  chmod +x /data/whiletest3.sh
+  241  /data/whiletest3.sh
+  242  chmod +x /data/whiletest3.sh
+  243  vim /data/whiletest3.sh
+  244  /data/whiletest3.sh
+  245  chmod +x /data/whiletest3.sh
+  246  /data/whiletest3.sh
+  247  vim /data/whiletest3.sh
+  248  /data/whiletest3.sh
+  249  vim /data/whiletest3.sh
+  250  /data/whiletest3.sh
+  251  vim /data/whiletest3.sh
+  252  /data/whiletest3.sh
+  253  vim /data/whiletest3.sh
+  254  /data/whiletest3.sh
+  255  /data/filecheck.sh
+  256  vim /data/filecheck.sh
+  257  ll data/
+  258  ll /data/
+  259  vim /data/filecheck.sh
+  260  chmod +x /data/filecheck.sh
+  261  /data/filecheck.sh
+  262  vim /data/subfun.sh
+  263  chomd +x /data/subfun.sh
+  264  vim /data/subfun.sh
+  265  chomd +x /data/subfun.sh
+  266  vim /data/subfun.sh
+  267  ll /data/
+  268  vim /data/subfun1.sh
+  269  chomd +x /data/subfun1.sh
+  270  chmod +x /data/subfun1.sh
+  271  /data/subfun1.sh
+  272  vim /data/subfun1.sh
+  273  chmod +x /data/subfun1.sh
+  274  /data/subfun1.sh
+  275  vim /data/fortest.sh
+  276  chomd =x /data/fortest.sh
+  277  chmod +x /data/fortest.sh
+  278  /data/fortest.sh
+  279  vim /data/fortest1.sh
+  280  chmod +x  /data/fortest1.sh
+  281  /data/fortest1.sh
+  282  vim /data/fortest2.sh
+  283  chmod +x /data/fortest2.sh
+  284  /data/fortest2.sh
+  285  ll
+  286  cat /data/subfun1.sh
+  287  vim /data/for_fun_exe.sh
+  288  chmod +x /data/for_fun_exe.sh
+  289  /data/for_fun_exe.sh
+  290  chmod +x /data/for_fun_exe.sh
+  291  vim /data/for_fun_exe.sh
+  292  echo $?
+  293  vim /data/rtm.sh
+  294  chmod +x /data/rtm.sh
+  295  /data/rtm.sh
+  296  vim /data/cal.sh
+  297  chmod +x /data/cal.sh
+  298  /data/cal.sh
+  299  vim /data/cal.sh
+  300  /data/cal.sh
+  301  vim /data/cat.sh
+  302  chmod +x /data/cat.sh
+  303  /data/cat.sh
+  304  vim /data/cat.sh
+  305  /data/cat.sh
+  306  vim /data/cat.sh
+  307  /data/cat.sh
+  308  vim /data/cat.sh
+  309  /data/cat.sh
+  310  vim /data/replace.sh
+  311  chmod +x /data/replace.sh
+  312  /data/replace.sh
+  313  vim /data/replace.sh
+  314  /data/replace.sh
+  315  shutdown now
+  316  ip a s
+  317  hostname
+  318  ipconfig
+  319  ip a s
+  320  shutdown now
+  321  tail -5 /var/log/syslog
+  322  tail -5 /var/log/
+  323  touch /var/log/sys.log
+  324  touch /var/log/syslog.txt
+  325  cat  /var/log/
+  326  ll /var/log/
+  327  logger comment to be added to log
+  328  tail -1 /vvar/log/syslog
+  329  tail -1 /var/log/syslog
+  330  ll /var/log/
+  331  tail -1 /var/log/syslog.txt
+  332  ll /var/log/
+  333  cat  /var/log/syslog
+  334  touch  /var/log/syslog
+  335  cat  /var/log/syslog
+  336  ll /var/log/
+  337  logger comment to be added to log
+  338  cat  /var/log/syslog
+  339  tail -1 /var/log/syslog
+  340  logger "comment to be added to log"
+  341  tail -1 /var/log/syslog
+  342  ll /var/log/
+  343  tail -1 /var/log/syslog.txt
+  344  tail -2 /var/log/syslog.txt
+  345  chkconfig
+  346  chkconfig network on
+  347  chkconfig
+  348  chkconfig network off
+  349  chkconfig
+  350  chkconfig network on
+  351  chkconfig
+  352  systemctl status network
+  353  ll /var/log/
+  354  df -m
+  355  du -csm /
+  356  du -cs /
+  357  df -h
+  358  ll /dev/log/
+  359  ip a s
+  360  mount /dev/sr0 /mnt
+  361  ll /mnt/Packages
+  362  ll /mnt/Packages/ | grep psmic
+  363  ll /mnt/Packages
+  364  ll /mnt/Packages/ | grep yelp
+  365  rpm -ivh /mnt/Packages/yelp-tools-3.28.0-1.el7.noarch.rpm
+  366  shutdown now
+  367  touch /tmp/testing.txt
+  368  vi /tmp/testing.txt
+  369  id
+  370  cat /tmp/testing.txt
+  371  vi /tmp/testing.txt
+  372  cat /tmp/testing.txt
+  373  tail -f /tmp/testing.txt
+  374  tail -1 /tmp/testing.txt
+  375  head -1 /tmp/testing.txt
+  376  top
+  377  top /
+  378  top /tmp/testing.txt
+  379  top testing.txt
+  380  rmp
+  381  rpm -qa
+  382  cat /tmp/testing.txt | grep kyaw
+  383  cat /tmp/ | grep
+  384  cat /tmp/ | grep Kyaw
+  385  cat /tmp/testing.txt | grep Kyaw
+  386  ll /mnt/fstab
+  387  private groupadd privategroup
+  388  groupadd private privategroup
+  389  private groupadd privategroup
+  390  pstree -g
+  391  yum install "pstree"
+  392  yum install "pstree*"
+  393  yum install "iostat*"
+  394  exit
+  395  hostname
+  396  ll /
+  397  date
+  398  uptime
+  399  who -b
+  400  currenttime
+  401  whoiam
+  402  whoami
+  403  history
+  404  free
+  405  free -h
+  406  df /
+  407  df --human -readable
+  408  ping 8.8.8.8
+  409  ps -a
+  410  kii -9
